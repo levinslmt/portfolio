@@ -3,7 +3,7 @@ import Card from "../ui/Card";
 import { ProjectList } from "../datas/ProjectCard";
 const Projects = () => {
   return (
-    <section id="Projects" className="w-full">
+    <section id="Projects" className="w-full scroll-mt-24">
       <div className="">
         <h2 className="font-mono text-sm mb-2 text-gray-500 uppercase tracking-[0.3em]">
           Work

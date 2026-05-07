@@ -17,7 +17,7 @@ const TechStackSection = () => {
       : TechStack.filter((tech) => tech.category === activeFilter);
 
   return (
-    <section id="TechStack" className="px-6 md:px-0 py-12">
+    <section id="TechStack" className="px-6 md:px-0 py-12 scroll-mt-16">
       <div className="w-full">
         {/* Heading */}
         <h2 className="font-mono text-sm mb-2 text-gray-500 uppercase tracking-[0.3em]">
