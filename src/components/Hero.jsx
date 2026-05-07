@@ -3,7 +3,7 @@ import heroImage from "../assets/hero-profile.png";
 
 const Hero = () => {
   return (
-    <section className="min-h-[calc(100svh-80px)] flex items-center">
+    <section id="Hero" className="min-h-[calc(100svh-80px)] flex items-center">
       <div className="max-w-6xl mx-auto w-full flex flex-col md:flex-row items-center">
         {/* hero text */}
         <div className="flex-1 text-left text-2xl">
