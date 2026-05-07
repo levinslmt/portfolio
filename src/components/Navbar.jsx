@@ -9,7 +9,7 @@ export default function Navbar() {
     <nav className="sticky top-0 z-50 bg-white">
       <div className=" flex justify-between items-center py-6">
         {/* Logo */}
-        <div className="text-2xl font-mono"><a href="Hero">@levinjstn</a></div>
+        <div className="text-2xl font-mono"><a href="#Hero">@levinjstn</a></div>
 
         {/* Desktop Menu (Hidden on mobile) */}
         <ul className="hidden md:flex gap-8 font-medium">
